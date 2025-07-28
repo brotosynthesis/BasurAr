@@ -1,0 +1,22 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+td{
+    font-size: 40px;
+}
+
+button{
+    background-color: darkgreen;
+    border: none;
+}
+
+table{
+    
+    align-content: space-around;
+}
+
+body{
+    background-color: darkolivegreen;
+}
