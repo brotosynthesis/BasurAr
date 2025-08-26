@@ -1,25 +1,44 @@
-<!DOCTYPE html>
+</html><!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BasurAr/Nosotros</title>
+    <title>BasurAr</title>
 </head>
 <body>
-    <div id="inicio">
-        <header>
-            <div>
-                <img src="./imagenes/1000064369.jpg" height="110" alt="logo">
-                
-                <nav>
-                    <a href="index.html">Inicio</a>
-                    <a href="consejos e inf.html">Info y Consejos</a>
-                    <a href="mapa.html">Mapa</a>
-                    <a href="nosotros.html">Sobre Nosotros</a>
-                </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="white">
+            <div class="container-fluid">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img id="logo" src="./imagenes/1000064369.jpg" alt="Logo"  class="d-inline-block align-text-top">
+                      </a>
+                    </div>
+                  </nav>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Mapa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Info y Consejos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="nosotros.html">Sobre Nosotros</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-        </header>
-    </div>
+        </nav>
 </body>
 </html>
