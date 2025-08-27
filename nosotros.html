@@ -8,19 +8,43 @@
     <title>BasurAr</title>
 </head>
 <body>
-    <div id="inicio">
-        <header>
-            <div>
-                <img src="./imagenes/1000064369.jpg" height="110" alt="logo">
-                
-                <nav>
-                    <a href="index.html">Inicio</a>
-                    <a href="consejos e inf.html">Info y Consejos</a>
-                    <a href="mapa.html">Mapa</a>
-                    <a href="nosotros.html">Sobre Nosotros</a>
-                </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="white">
+    <div class="container-fluid">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" src="./imagenes/1000064369.jpg" alt="Logo"  class="d-inline-block align-text-top">
+              </a>
             </div>
-        </header>
+          </nav>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="mapa.html">Mapa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="consejoseinf.html">Info y Consejos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="noticias.html">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="nosotros.html">Sobre Nosotros</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
+  </nav>
+
+  <h2>Sobre Nosotros</h1>
+
+  <p>En BasurAr buscamos reducir la basura en las calles de Córdoba y fomentar el reciclaje <br>como una acción concreta frente al cambio climático.</p>
+  <p>Nuestro propósito es concientizar, educar y motivar a la comunidad, creando <br>una ciudad más limpia, sustentable y comprometida con el medioambiente.</p>
+  <p>Nos alineamos con la ODS 13: Acción por el Clima, promoviendo <br>pequeños cambios cotidianos que  generan un gran impacto colectivo.</p>
 </body>
 </html>

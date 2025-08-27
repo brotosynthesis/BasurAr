@@ -50,7 +50,28 @@ header{
     width: 50px;
 }
 
-iframe{
+#m1{
     width: 400px;
     height: 400px;
+}
+ h2 , h1 , h3{
+    text-align: center;
+ }
+
+ p{
+    text-align: center;
+ }
+
+#t2 {
+    text-align: center;
+}
+
+#m2 {
+    width: 600px;
+    height: 400px;
+}
+
+li{
+    font-size: 20px;
+    text-align: center;
 }
