@@ -8,7 +8,7 @@ img {
     width: 150px;
 }
 
-div{
+#important{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,10 +51,10 @@ header{
 }
 
 #m1{
-    width: 400px;
+    width: 600px;
     height: 400px;
 }
- h2 , h1 , h3{
+ h2 , h1 , h3 , h4{
     text-align: center;
  }
 
@@ -74,4 +74,18 @@ header{
 li{
     font-size: 20px;
     text-align: center;
+}
+
+#d1 {
+    padding: 20px;
+    align-items: first baseline;
+}
+
+
+#d3 {
+    padding: 10px;
+}
+
+#h4p {
+    background-color: antiquewhite;
 }
